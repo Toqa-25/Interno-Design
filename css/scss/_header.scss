@@ -6,9 +6,13 @@
 
 header{
     margin-top:44px;
+    margin-bottom: 45px;
     .logo{
         height: 50px;
         width: 177px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     nav{
         gap: 30px;
