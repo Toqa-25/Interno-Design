@@ -1,0 +1,116 @@
+// import variables 
+@use "variables" as * ;
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'DM Serif Display', serif;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width:100%;
+}
+.container{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.marg-200{
+    margin-top:200px;
+}
+.marg-150{
+    margin-top:150px;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 48px;
+    gap: 10px;
+    width: 219.14px;
+    height: 75px;
+    background: #292F36;
+    box-shadow: 0px 10px 20px rgb(192 192 192 / 35%);
+    border-radius: 18px;
+    border: 2px solid #292f36;
+    .btn{
+        min-width: 123.14px;
+        height: 23px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 125%;
+        /* identical to box height, or 22px */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        background-color: transparent;
+        border: none;
+    }
+    &:hover{
+        background-color: #fff;
+        color: #292f36;
+        .btn{
+            color: #292f36;
+        }
+    }
+}
+// .arrow{
+//     cursor:pointer;
+// }
+.capitalize{
+    text-transform: capitalize;
+}
+.desc{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+}
+.head{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    /* or 62px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #292F36;
+}
+@media (max-width:575px){
+    .head{
+        font-size:30px;
+    }
+}
+.flex-between{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// basic sections
+. 

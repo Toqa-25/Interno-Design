@@ -1,0 +1,28 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+.about{
+    margin-top:231px;
+    .about-quote{
+        .quote-content{
+            max-width: 875.5px;
+            height: 428px;
+            left: 553px;
+            top: 726px;
+        }
+    }
+}
+
+
+
+

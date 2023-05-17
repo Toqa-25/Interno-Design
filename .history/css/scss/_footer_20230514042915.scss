@@ -1,0 +1,132 @@
+// import variables 
+@use "variables" as * ;
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 134px;
+    margin-top:135px;
+    .intro{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 101px;
+        max-width: 1199px;
+        min-height: 370px;
+        flex-wrap: wrap;
+        .content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 9px;
+            flex:1;
+            .list{
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 300%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                letter-spacing: 0.01em;
+                color: #4D5053;
+                // justify-content: space-between;
+            }
+        }
+        .intro-content{
+            gap: 31px;
+            max-width: 393px;
+            min-height: 188px;
+            .sub-content{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 18px;
+                max-width: 393px;
+                min-height: 134px;
+                .logo{
+                    width: 177px;
+                    height: 50px;
+                }
+            }
+            .icons-list{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 54px;
+                width: 225px;
+                height: 23px;
+                .list-item{
+                    a{
+                        width: 17px;
+                        height: 23px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 19px;
+                        line-height: 120%;
+                        /* identical to box height, or 23px */
+                        text-align: center;
+                        letter-spacing: 0.055em;
+                        text-transform: uppercase;
+                        color: #292F36;
+                        i{
+                         width: 17px;
+                         height: 23px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+       
+        .pages-content{
+            width: 125px;
+            height: 370px;
+            .pages-list{
+                width: 125px;
+                height: 330px;
+        }
+        }
+        .services-conent {
+            width: 120px;
+            height: 370px;  
+            .services-list {
+                width: 120px;
+                height: 330px;
+            }
+        }
+        .contact-content {
+            gap: 26px;
+            width: 258px;
+            height: 272px;
+            .contact-list {
+                width: 258px;
+                height: 215px;
+                line-height: 150%;
+            }
+        }
+        .head{
+            font-size: 22px;
+        }
+        a{
+            color: #4D5053;
+        }
+    }
+    .copyright{
+        height: 73px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        a{
+            margin-left: 7px;
+            text-transform: capitalize;
+            font-family: 'Pushster', cursive;
+            color: $main-paij-color;
+
+        }
+    }
+}

@@ -1,0 +1,34 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+.about{
+    margin-top:231px;
+    .about-quote{
+        display: flex;
+        j
+        .quote-content{
+            max-width: 875.5px;
+            height: 428px;
+            border:25px solid #F4F0EC;
+            border-radius: 70px;
+            -webkit-border-radius: 70px;
+            -moz-border-radius: 70px;
+            -ms-border-radius: 70px;
+            -o-border-radius: 70px;
+}
+    }
+}
+
+
+
+
