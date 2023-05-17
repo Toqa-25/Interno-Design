@@ -70,6 +70,10 @@ img {
   border: none;
   text-transform: capitalize;
 }
+.button .btn img {
+  width: 15.14px;
+  height: 13.18px;
+}
 .button:hover {
   background-color: #fff;
   color: #292f36;
@@ -433,14 +437,14 @@ footer .copyright a {
   align-items: flex-start;
   padding: 0px;
   gap: 9px;
-  max-width: 567px;
+  max-width: 568px;
 }
 .banner .banner-content .banner-intro .intro-sub-content .intro-head {
   line-height: 125%;
   font-style: normal;
   font-weight: 400;
-  font-size: 85px;
-  max-width: 567px;
+  font-size: 80px;
+  max-width: 568px;
 }
 .banner .banner-content .banner-intro .intro-sub-content .intro-text {
   font-family: "Jost";
@@ -452,6 +456,10 @@ footer .copyright a {
   align-items: center;
   letter-spacing: 0.01em;
   color: #4D5053;
+}
+.banner .banner-content .banner-intro .intro-sub-content img.arrow {
+  width: 15.14px;
+  height: 13.18px;
 }
 
 @media (max-width: 767px) {

@@ -70,6 +70,10 @@ img {
   border: none;
   text-transform: capitalize;
 }
+.button .btn img {
+  width: 15.14px;
+  height: 13.18px;
+}
 .button:hover {
   background-color: #fff;
   color: #292f36;
