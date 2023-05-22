@@ -53,6 +53,7 @@ img {
   cursor: pointer;
 }
 .button .btn {
+  cursor: pointer;
   min-width: 123.14px;
   height: 23px;
   font-family: "Jost";

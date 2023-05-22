@@ -53,6 +53,7 @@ img {
   cursor: pointer;
 }
 .button .btn {
+  cursor: pointer;
   min-width: 123.14px;
   height: 23px;
   font-family: "Jost";
@@ -1052,6 +1053,11 @@ footer .copyright a {
   width: 0px;
   height: 130px;
   border: 1px solid #CDA274;
+}
+@media (max-width: 1920px) {
+  .counter .counter-content {
+    gap: 50px;
+  }
 }
 
 .blog {
