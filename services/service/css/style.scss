@@ -11,12 +11,12 @@
 @use "../../../css/scss/footer" as * ;
 
 //  global style
-body{
-    counter-reset: num 0 num2 ;
-    // counter-reset: num1 ;
-    // counter-reset: num2 0;
+// body{
+//     counter-reset: num 0 num2 ;
+//     // counter-reset: num1 ;
+//     // counter-reset: num2 0;
 
-}
+// }
 
 //details section
 .details{
@@ -220,8 +220,7 @@ body{
                             
                         }
                     }
-                }
-              
+                }              
             }
            
         }

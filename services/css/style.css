@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "DM Serif Display", serif;
+  counter-reset: num num2 list-num;
 }
 
 a {
@@ -54,7 +55,6 @@ img {
 }
 .button .btn {
   cursor: pointer;
-  min-width: 123.14px;
   height: 23px;
   font-family: "Jost";
   font-style: normal;
@@ -76,11 +76,19 @@ img {
   width: 15.14px;
   height: 13.18px;
 }
-.button:hover {
+.button.light-button {
+  background: #F4F0EC;
+  border: 2px solid #F4F0EC;
+  box-shadow: none;
+}
+.button.light-button .btn {
+  color: #292F36;
+}
+.button.light-button:hover {
   background-color: #fff;
   color: #292f36;
 }
-.button:hover .btn {
+.button.light-button:hover .btn {
   color: #292f36;
 }
 
@@ -112,6 +120,11 @@ img {
   color: #292F36;
 }
 
+@media (max-width: 991px) {
+  .head {
+    font-size: 30px;
+  }
+}
 @media (max-width: 575px) {
   .head {
     font-size: 30px;
@@ -163,9 +176,99 @@ img {
   }
 }
 
+.icons-list {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 54px;
+  width: 225px;
+  height: 23px;
+}
+.icons-list .list-item a {
+  width: 17px;
+  height: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  /* identical to box height, or 23px */
+  text-align: center;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: #292F36;
+}
+.icons-list .list-item a i {
+  width: 17px;
+  height: 23px;
+}
+
+.mail-box-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 57px;
+  max-width: 797px;
+  min-height: 277px;
+}
+.mail-box-form .form-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 100%;
+  min-height: 45px;
+  flex-wrap: wrap;
+}
+.mail-box-form .form-items .form-item {
+  max-width: 375px;
+  width: 100%;
+}
+.mail-box-form .subject {
+  width: 100%;
+  max-width: 796px;
+  height: 175px;
+}
+.mail-box-form input, .mail-box-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000;
+}
+.mail-box-form input {
+  height: 45px;
+}
+.mail-box-form textarea {
+  height: 175px;
+}
+.mail-box-form ::-moz-placeholder {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  text-transform: capitalize;
+}
+.mail-box-form ::placeholder {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 33px */
+  letter-spacing: 0.01em;
+  color: #4D5053;
+  text-transform: capitalize;
+}
+
 header {
   margin-top: 44px;
   margin-bottom: 45px;
+  gap: 50px;
 }
 header .logo {
   height: 50px;
