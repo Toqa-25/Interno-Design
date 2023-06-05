@@ -495,227 +495,74 @@ footer .copyright a {
   color: #CDA274;
 }
 
-.blog {
-  max-width: 1201px;
-  min-height: 2030px;
-}
-.blog .latest-Post {
+.team {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 27px;
-  max-width: 1201px;
-  min-height: 612px;
+  gap: 50px;
+  max-width: 1200.19px;
+  min-height: 1151px;
 }
-.blog .latest-Post .latest-Post-content {
-  box-sizing: border-box;
+.team .team-members {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 22px;
-  gap: 10px;
-  flex-wrap: wrap;
-  max-width: 1201px;
-  min-height: 522px;
-  border: 1px solid #E7E7E7;
-  border-radius: 62px;
-}
-.blog .latest-Post .latest-Post-content .posts {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0px;
-  gap: 65px;
-  width: 100%;
-  max-width: 1157px;
-  min-height: 478px;
-}
-.blog .latest-Post .latest-Post-content .posts .image {
-  max-width: 569px;
-  height: 478px;
-  background: #C4C4C4;
-  border-radius: 50px;
-  overflow: hidden;
-}
-.blog .latest-Post .latest-Post-content .posts .image img {
-  width: 100%;
-  height: 100%;
-}
-.blog .latest-Post .latest-Post-content .posts .content {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 41px;
-  max-width: 489px;
-  min-height: 375px;
-}
-.blog .latest-Post .latest-Post-content .posts .content .sub-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
   padding: 0px;
   gap: 22px;
-  max-width: 469px;
-  min-height: 282px;
-}
-.blog .latest-Post .latest-Post-content .posts .content .sub-content .content-head .head {
-  font-size: 25px;
-}
-.blog .news {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 30px;
-  max-width: 1201px;
-  min-height: 1165px;
-}
-.blog .news .blog-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 0px;
-  gap: 27px;
-  max-width: 1200px;
-  min-height: 521px;
-  max-width: 100%;
-}
-.blog .news .blog-content .blog-item {
-  max-width: 382px;
-  min-height: 521px;
-  background: #FFFFFF;
-  border-radius: 8px 8px 8px 0px;
-  border: 1px solid #E7E7E7;
-  filter: drop-shadow(0px 10px 30px rgba(255, 255, 255, 0.25));
-  border-radius: 62px;
-  padding: 21px;
-  gap: 10px;
-  transition: 0.3s;
   width: 100%;
+  min-height: 550.5px;
 }
-.blog .news .blog-content .blog-item .blog-item-content {
+.team .team-members .team-member {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 21px;
-  max-width: 340px;
+  gap: 17px;
+  width: 283.55px;
+  height: 550.5px;
 }
-.blog .news .blog-content .blog-item .blog-item-content .blog-img {
-  max-width: 340px;
-  height: 289.27px;
-  background: #EAEAEA;
-  border-radius: 45px 45px 0px 0px;
+.team .team-members .team-member .member-img {
+  width: 283.55px;
+  height: 433px;
+  background: #C4C4C4;
+  border-radius: 30px;
   overflow: hidden;
 }
-.blog .news .blog-content .blog-item .blog-item-content .blog-img img {
-  width: 100%;
-  height: 100%;
-}
-.blog .news .blog-content .blog-item .blog-item-content .blog-img .blog-head {
-  position: absolute;
-  width: 129px;
-  height: 41px;
-  left: 41px;
-  top: 249px;
-  background: #FFFFFF;
-  border-radius: 8px 8px 8px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.blog .news .blog-content .blog-item .blog-item-content .blog-img .blog-head .head {
-  font-size: 16px;
-  max-width: 118px;
-  min-height: 29px;
-  align-items: center;
-  letter-spacing: 0.01em;
-  text-transform: capitalize;
-  color: #4D5053;
-}
-.blog .news .blog-content .blog-item .blog-item-content .blog-sub-content {
+.team .team-members .team-member .member-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0px;
-  gap: 30px;
-  max-width: 340px;
-  min-height: 152px;
+  gap: 16px;
+  width: 227.25px;
+  height: 100.5px;
 }
-.blog .news .blog-content .blog-item .blog-item-content .blog-sub-content .head {
-  max-width: 305px;
-  min-height: 70px;
+.team .team-members .team-member .member-info .member-name {
   font-size: 25px;
 }
-.blog .news .blog-content .blog-item.active, .blog .news .blog-content .blog-item:hover {
-  background: #F4F0EC;
+.team .team-members .team-member .member-info .member-info {
+  font-size: 18px;
 }
-.blog .pagination {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-  width: 268px;
-  height: 52px;
-  width: 100%;
+.team .team-members .team-member .member-info .icons-list {
+  gap: 37px;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 21.03px;
 }
-.blog .pagination .pagination-item {
-  width: 52px;
-  height: 52px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #F4F0EC;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  cursor: pointer;
+.team .team-members .team-member .member-info .icons-list i {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 21.03px;
+  font-size: 18px;
 }
-.blog .pagination .pagination-item.active {
-  background: #F4F0EC;
+.team .team-members .team-member .member-info .icons-list i.fa-facebook-f {
+  width: 7.9px;
 }
-.blog .blog-info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px;
-  gap: 65px;
-  width: 100%;
-  min-height: 52px;
+.team .team-members .team-member .member-info .icons-list i.fa-twitter {
+  width: 11.84px;
 }
-.blog .blog-info .sub-info {
-  max-width: 223px;
-  min-height: 33px;
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  /* or 24px */
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.01em;
-  text-transform: capitalize;
-  color: #4D5053;
-}
-.blog .blog-info .sub-info .desc {
-  font-size: 16px;
-}
-.blog .blog-info .arrow {
-  width: 52px;
-  height: 52px;
-}
-.blog .blog-head {
-  width: 100%;
+.team .team-members .team-member .member-info .icons-list i.fa-linkedin-in {
+  width: 10.53px;
 }/*# sourceMappingURL=style.css.map */
