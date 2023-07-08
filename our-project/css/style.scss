@@ -161,6 +161,10 @@
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
             cursor: pointer;
+            img{
+                width:fit-content;
+                height:fit-content;
+            }
             &.active{
                 background: #F4F0EC;
             }

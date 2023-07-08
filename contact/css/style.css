@@ -548,156 +548,69 @@ footer .copyright a {
   color: #CDA274;
 }
 
-.projects {
-  display: flex;
-  flex-direction: column;
+.contact-form {
   align-items: center;
-  padding: 0px;
-  gap: 61px;
+  gap: 80px;
   max-width: 1201px;
-  min-height: 3479px;
+  min-height: 724px;
 }
-.projects .categories {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  max-width: 880px;
-  min-height: 75px;
-  border: 1px solid #CDA274;
-  border-radius: 18px;
+.contact-form .contact-form-head {
+  max-width: 683px;
+  min-height: 146px;
+  opacity: 0.66;
+  text-align: center;
 }
-.projects .categories .categories-content {
+.contact-form .contact-form-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding: 0px;
-  width: 100%;
-  min-height: 75px;
-}
-.projects .categories .categories-content .categories-item {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  min-width: 200px;
-  height: 75px;
-  cursor: pointer;
-}
-.projects .categories .categories-content .categories-item.active {
-  background: #CDA274;
-  border-radius: 18px;
-}
-.projects .categories .categories-content .categories-item.active .desc {
-  color: #fff;
-}
-.projects .project {
-  max-width: 1201px;
-  min-height: 3230px;
-  display: flex;
-  gap: 30px;
+  align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: center;
-}
-.projects .project .project-group {
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-}
-.projects .project .project-group .project-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
-  gap: 24px;
-  max-width: 585px;
-}
-.projects .project .project-group .project-item .project-img {
-  max-width: 585px;
+  gap: 55px;
+  max-width: 1201px;
   width: 100%;
-  background: #C4C4C4;
-  overflow: hidden;
-  height: 522px;
+  min-height: 498px;
 }
-.projects .project .project-group .project-item .project-img img {
-  height: 100%;
-  width: 100%;
-}
-.projects .project .project-group .project-item.heigh .project-img {
-  height: 853px;
-}
-.projects .project .project-group .project-item .project-info {
-  display: flex;
-  flex-direction: row;
+.contact-form .contact-form-content .member-contact {
   align-items: center;
-  justify-content: space-between;
-  padding: 0px;
-  width: 100%;
-  max-width: 585px;
-  min-height: 70px;
-  height: 70px;
-}
-.projects .project .project-group .project-item .project-info .sub-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 4px;
-  min-height: 62px;
-  min-width: 217px;
-  height: 62px;
-}
-.projects .project .project-group .project-item .project-info .sub-info .head {
-  min-width: 184px;
-  min-height: 31px;
-  font-size: 25px;
-  min-width: 205px;
-  height: 31px;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-}
-.projects .project .project-group .project-item .project-info .sub-info .desc {
-  max-width: 217px;
-  min-height: 27px;
-}
-.projects .project .project-group .project-item .project-info .arrow {
-  width: 70px;
-  height: 70px;
-}
-.projects .pagination {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-  width: 268px;
-  height: 52px;
-}
-.projects .pagination .pagination-item {
-  width: 52px;
-  height: 52px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #F4F0EC;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  cursor: pointer;
-}
-.projects .pagination .pagination-item img {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-.projects .pagination .pagination-item.active {
+  padding: 76px 32px;
+  gap: 10px;
+  width: 349px;
+  height: 436.99px;
   background: #F4F0EC;
+  gap: 47px;
+  border-radius: 50px;
+}
+.contact-form .contact-form-content .member-contact .list-item a .image {
+  background: #FFFFFF;
+}
+.contact-form .contact-form-content .member-contact .list-item a .image i {
+  font-size: 20px;
+}
+.contact-form .contact-form-content .member-contact .icons-list {
+  align-self: flex-start;
+}
+.contact-form .contact-form-content .form {
+  gap: 58px;
+  max-width: 797px;
+  min-height: 498px;
+}
+.contact-form .contact-form-content .form .button {
+  align-self: flex-end;
+}
+
+.map {
+  max-width: 1199px;
+  height: 501px;
+  width: 100%;
+  background: #292F36;
+  border-radius: 70px;
+  overflow: hidden;
+}
+.map iframe {
+  width: 100%;
+  height: 100%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }/*# sourceMappingURL=style.css.map */

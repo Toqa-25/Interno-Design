@@ -326,8 +326,9 @@
             min-height: 653px;
             .leave-form{
                 display: flex;
-                flex-direction: column;
+                // flex-direction: column;
                 align-items: flex-start;
+                flex-wrap:wrap;
                 padding: 0px;
                 gap: 36px;
                 width: 100%;
@@ -556,7 +557,7 @@
     @media(max-width:767px){
         .blog{
             flex-wrap:wrap;
-            .sidebar{{
+            .sidebar{
                 order:-1;
             }
         }
