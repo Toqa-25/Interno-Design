@@ -1,0 +1,31 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+// team section
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+    max-width: 1200.19px;
+    min-height: 550.5px;
+    .team-members
+}
+
+
+
+
+

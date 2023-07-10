@@ -1,0 +1,161 @@
+// import variables 
+@use "../../../css/scss/variables" as * ;
+
+// import global 
+@use "../../../css/scss/global" as * ;
+
+// import header 
+@use "../../../css/scss/header" as * ;
+
+// import footer 
+@use "../../../css/scss/footer" as * ;
+
+//  global style
+
+//blog section
+.blog{
+    max-width: 1201px;
+    min-height: 3325px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+    .blog-details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 93px;
+        max-width: 804px;
+        min-height: 3325px;
+        .blog-details-content{
+            width:100%;
+            min-height: 2579px;
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+            }
+            .first-content{
+                max-width: 804px;
+                min-height: 1040px;
+                gap: 48px;
+                .sub-content{
+                    .content-info{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 21px;
+                        max-width: 799px;
+                        min-height: 686px;
+                        .head{
+                            max-width: 685px;
+                            height: 126px;
+                        }
+                        .image{
+                            max-width: 799px;
+                            height: 539px;
+                            background: #C4C4C4;
+                            border-radius: 50px;
+                            overflow:hidden;
+                            img{
+                                width:100%;
+                                height:100%;
+                            }
+                        }
+
+                    }
+                }
+                .blog-info{
+                    display: flex;
+                    align-items: center;
+                    flex-wrap:wrap;
+                    justify-content: space-between;
+                    padding: 0px;
+                    gap: 30px;
+                    width: 100%;
+                    min-height: 52px;
+                    .sub-info{
+                        max-width: 223px;
+                        min-height: 33px;
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%;
+                        /* or 24px */
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: 0.01em;
+                        text-transform: capitalize;
+                        color: #4D5053;
+                        .desc{
+                            font-size: 16px;
+                        }
+                    }
+                  
+                }
+            }
+            .blog-quote{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 53px ;
+                padding-bottom: 53px ;
+                gap: 10px;
+                max-width: 799px;
+                min-height: 267px;
+                background: #F4F0EC;
+                border-radius: 50px;
+                margin-top:35px;
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 345px;
+                    minheight: 161px;
+                    .content-head{
+                        font-style: italic;
+                        color: #CDA274;
+                    }
+                    .mark{
+                        width: 106px;
+                        height: 133px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .content-head{
+                            font-size: 200px;
+                            transform: rotate(-180deg);
+                        }
+                    }
+                    .head-text{
+                        max-width: 345px;
+                        height: 70px;
+                        font-size: 25px;
+                        text-align: center;
+                    }
+                   
+                }
+            }
+            .second-content{
+                max-width: 800px;
+                min-height: 1210px;
+                gap: 44px;
+            }
+        }
+
+    }
+
+  
+}
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+// import variables 
+@use "../../../css/scss/variables" as * ;
+
+// import global 
+@use "../../../css/scss/global" as * ;
+
+// import header 
+@use "../../../css/scss/header" as * ;
+
+// import footer 
+@use "../../../css/scss/footer" as * ;
+
+//  global style
+
+//blog section
+.blog{
+    max-width: 1201px;
+    min-height: 3325px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 52px;
+    .blog-details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 93px;
+        max-width: 804px;
+        min-height: 3325px;
+        .blog-details-content{
+            width:100%;
+            min-height: 2579px;
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+            }
+            .first-content{
+                max-width: 804px;
+                min-height: 1040px;
+                gap: 48px;
+                .sub-content{
+                    .content-info{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 0px;
+                        gap: 21px;
+                        max-width: 799px;
+                        min-height: 686px;
+                        .head{
+                            width: 684px;
+                            height: 126px;
+                        }
+
+                    }
+                }
+            }
+            .second-content{
+                max-width: 800px;
+                min-height: 1210px;
+                gap: 44px;
+            }
+        }
+
+    }
+
+  
+}
+
+
+
+
+
+

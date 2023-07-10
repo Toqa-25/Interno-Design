@@ -1,0 +1,174 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//projects section
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 61px;
+    max-width: 1201px;
+    min-height: 3479px;
+    .categories{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        max-width: 880px;
+        min-height: 75px;
+        border: 1px solid #CDA274;
+        border-radius: 18px;
+        .categories-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            width: 100%;
+            min-height: 75px;
+            .categories-item{
+                flex:1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                min-width:200px;
+                height:75px;
+                cursor:pointer;
+                &.active{
+                    background: #CDA274;
+                    border-radius: 18px;
+                    .desc{
+                        color:#fff;
+                    }
+
+                }
+            }
+        }
+    }
+    .project{
+        max-width: 1201px;
+        min-height: 3230px;  
+        display: flex;
+        gap: 30px;
+        flex-wrap:wrap;
+        .project-group{
+            display: flex;
+            flex-direction: column;
+            gap:
+
+        }
+        .project-item{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 24px;
+            max-width: 585px;
+            // height: 947px;
+            .project-img{
+                max-width: 585px;
+                width:100%;
+                background: #C4C4C4;
+                overflow: hidden;
+                height: 522px;
+                img{
+                    height:100%;
+                    width:100%;
+                }
+            } 
+            &.heigh{
+                .project-img{
+                    height: 853px;
+                }
+            }  
+            .project-info{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0px;
+                width: 100%;
+                max-width: 585px;
+                min-height: 70px;
+                height: 70px;
+                // gap: 298px;
+                // width: 585px;
+                .sub-info{                
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 4px;
+                    // max-width: 217px;
+                    min-height: 62px;
+                    min-width: 217px;
+                    height: 62px;
+                    .head{
+                        min-width: 184px;
+                        min-height: 31px;
+                        font-size: 25px;
+                        min-width: 205px;
+                        height: 31px;
+                        font-size: 25px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .desc{
+                        max-width: 217px;
+                        min-height: 27px;
+                    }
+                }
+                .arrow{
+                    width: 70px;
+                    height: 70px;
+                }
+            }              
+        }
+    }
+    .pagination{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 268px;
+        height: 52px;
+        .pagination-item{
+            width: 52px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            border: 1px solid  #F4F0EC;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            cursor: pointer;
+            &.active{
+                background: #F4F0EC;
+            }
+        }
+    }
+}
+
+
+
+
+

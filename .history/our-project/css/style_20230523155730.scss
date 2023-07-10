@@ -1,0 +1,145 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//projects section
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 61px;
+    max-width: 1201px;
+    min-height: 3479px;
+    .categories{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        max-width: 880px;
+        min-height: 75px;
+        border: 1px solid #CDA274;
+        border-radius: 18px;
+        .categories-content{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            width: 100%;
+            min-height: 75px;
+            .categories-item{
+                flex:1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                min-width:200px;
+                height:75px;
+                cursor:pointer;
+                &.active{
+                    background: #CDA274;
+                    border-radius: 18px;
+                    .desc{
+                        color:#fff;
+                    }
+
+                }
+            }
+        }
+    }
+    .project{
+        max-width: 1201px;
+        min-height: 3230px;  
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
+        // align-items: flex-start;
+        // padding: 0px;
+        // gap: 104px;
+        .project-item{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 24px;
+            max-width: 585px;
+            // height: 947px;
+            .project-img{
+                max-width: 585px;
+                width:100%;
+                background: #C4C4C4;
+                overflow: hidden;
+                img{
+                    height:100%;
+                    width:100%;
+                }
+            }  
+            .project-info{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0px;
+                width: 100%;
+                max-width: 585px;
+                min-height: 70px;
+                height: 70px;
+                // gap: 298px;
+                // width: 585px;
+                .sub-info{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 0px;
+                    gap: 4px;
+                    max-width: 217px;
+                    min-height: 62px;
+                    width: 217px;
+                    height: 62px;
+                    .head{
+                        max-width: 184px;
+                        min-height: 31px;
+                        font-size: 25px;
+                        width: 205px;
+                        height: 31px;
+
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 125%;
+                        /* or 31px */
+
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: 0.02em;
+                    }
+                    .desc{
+                        max-width: 217px;
+                        min-height: 27px;
+                    }
+                }
+                .arrow{
+                    width: 70px;
+                    height: 70px;
+                }
+            }              
+        }
+    }
+}
+
+
+
+
+

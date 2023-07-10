@@ -1,0 +1,76 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+.contact-form{
+    align-items: center;
+    gap: 80px;
+    max-width: 1201px;
+    min-height: 724px;
+    .contact-form-head{
+        max-width: 683px;
+        min-height: 146px;
+        opacity: 0.66;
+        text-align:center;
+    }
+    .contact-form-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap:wrap;
+        padding: 0px;
+        gap: 55px;
+        max-width: 1201px;
+        width:100%;
+        min-height: 498px;
+        // opacity: 0.66;
+        .member-contact{
+            align-items: center;
+            padding: 76px 32px;
+            gap: 10px;
+            width: 349px;
+            height: 436.99px;
+            background: #F4F0EC;
+            gap: 47px;
+            border-radius: 50px;
+            .list-item{
+                a{
+                    .image{
+                        background: #FFFFFF;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .icons-list{
+                align-self: flex-start;
+            }
+        }
+        .form{
+            gap: 58px;
+            max-width: 797px;
+            min-height: 498px;
+            .mail-box-form{
+                .button{
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

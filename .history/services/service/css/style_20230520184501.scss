@@ -1,0 +1,58 @@
+// import variables 
+@use "../../../css/scss/variables" as * ;
+
+// import global 
+@use "../../../css/scss/global" as * ;
+
+// import header 
+@use "../../../css/scss/header" as * ;
+
+// import footer 
+@use "../../../css/scss/footer" as * ;
+
+//  global style
+
+//details section
+.details{
+    .details-content{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 97px;
+        max-width: 1201px;
+        min-height: 471px;
+        .details-head{
+            max-width: 448px;
+            min-height: 189px;
+            min-height: 189px;
+            display: flex;
+            align-items: center;
+        }
+        .sub-content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 28px;
+            max-width: 655px;
+            min-height: 471px;
+            .f-25{
+                font-size: 25px;
+                letter-spacing: 0.01em;
+            }
+            .color{
+                color: #CDA274;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+

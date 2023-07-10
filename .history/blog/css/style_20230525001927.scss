@@ -1,0 +1,48 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//blog section
+.blog{
+    max-width: 1201px;
+    min-height: 2030px;
+    .latest-Post{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 27px;
+        max-width: 1201px;
+        min-height: 612px;
+        .latest-Post-content{
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 22px;
+            gap: 10px;
+            flex-wrap:wrap;
+            max-width: 1201px;
+            min-height: 522px;
+            border: 1px solid #E7E7E7;
+            border-radius: 62px;
+        }
+    }
+}
+
+
+
+
+
+

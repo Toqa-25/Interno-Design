@@ -1,0 +1,29 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//project-details section
+.project-details{
+    width: 1201px;
+height: 1336px;
+left: 360px;
+top: 695px;
+
+
+}
+
+
+
+
+
+

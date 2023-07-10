@@ -1,0 +1,49 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//details section
+.details{
+    .details-content{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 97px;
+        max-width: 1200px;
+        min-height: 471px;
+        .details-head{
+            max-width: 448px;
+            min-height: 189px;
+
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 125%;
+            /* or 62px */
+
+            display: flex;
+            align-items: center;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+

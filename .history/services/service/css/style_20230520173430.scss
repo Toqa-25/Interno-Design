@@ -1,0 +1,40 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//details section
+.details{
+    .details-content{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 97px;
+
+        position: absolute;
+        width: 1200px;
+        height: 471px;
+        left: 360px;
+        top: 695px;
+    }
+
+}
+
+
+
+
+
+
+
+

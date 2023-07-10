@@ -1,0 +1,119 @@
+// import variables 
+@use "variables" as * ;
+
+// import mixins 
+@use "mixins" as * ;
+
+header{
+    margin-top:44px;
+    margin-bottom: 45px;
+    gap:50px;
+    .logo{
+        height: 50px;
+        width: 177px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        gap: 30px;
+        // position: relative;
+        .menu-list{
+            width: 572px;
+            font-family: Jost;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: $black-color;
+            .menu-list-item{
+                cursor: pointer;
+                a{
+                    font-size: 20px;
+                    color: $black-color;
+                }
+                &.active a{
+                    color: $main-paij-color;
+                }
+                &:hover a{
+                    color: $main-paij-color;
+                }
+            }
+    
+        }
+        .bar{
+            display:none;
+        }
+        .search , .bar{
+            height: 21.000106811523438px;
+            width: 20.999357223510742px;
+            border-radius: 0px;
+            cursor: pointer;
+
+        }
+        .search{
+            position: relative;
+            .input-search {
+                position: absolute;
+                right: 0;
+                top: 31px;
+                padding: 5px;
+                border: 1px solid;
+                border-radius: 5px;
+                caret-color: $main-paij-color;
+                z-index:1000;
+                display: none;
+            }
+            .show-input-search{
+                display: inline-block;
+            }
+            img{
+              color: $main-paij-color;
+            }
+        }
+        
+    }
+}
+
+@media  (max-width: 991px) {
+    header{
+        nav{
+            .menu-list{
+                position: absolute;
+                flex-direction: column;
+                top: 139px;
+                right: 0;
+                left:0;
+                width: 100vw;
+                background-color: #f4f0ec;
+                gap: 30px;
+                //border-radius: 15px;
+                padding: 20px;
+                z-index: 10000;
+                transition:  400ms ;
+                height:0;
+                overflow: hidden;
+                padding:0;
+                -webkit-transition:  400ms ;
+                -moz-transition:  400ms ;
+                -ms-transition:  400ms ;
+                -o-transition:  400ms ;
+                .menu-list-item   {
+                    width:80%;
+                    margin-left:auto;
+                    margin-right:auto;
+                    text-align:left;
+                }
+}
+            .bar{
+                display:block;
+            }
+            .show-menu-list{
+                height:351px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//project-details section
+.project-details{
+    max-width: 1201px;
+    min-height: 1336px;
+    .project-info{
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 42px;
+
+position: absolute;
+width: 1200px;
+height: 437px;
+left: 360px;
+top: 695px;
+    }
+
+}
+
+
+
+
+
+

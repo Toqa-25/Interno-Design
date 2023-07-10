@@ -1,0 +1,35 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//blog section
+.blog{
+    max-width: 1201px;
+    min-height: 2030px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+
+    position: absolute;
+    width: 1201px;
+    height: 3325px;
+  
+}
+
+
+
+
+
+

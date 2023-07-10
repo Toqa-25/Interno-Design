@@ -1,0 +1,99 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//about section
+
+
+
+// mail-box section
+.mail-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mail-box-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 77px;
+        max-width: 796px;
+        min-height: 632px;
+        .mail-box-head{
+            max-width: 635px;
+            min-height: 126px;
+            .head{
+                text-align: center;
+            }
+        }
+        .mail-box-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 57px;
+            max-width: 797px;
+            min-height: 277px;
+            .form-items{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 40px;
+                width: 100%;
+                min-height: 45px;
+                flex-wrap:wrap;
+                .form-item {
+                    // flex: 1;
+                    max-width: 375px;
+                    width: 375px;
+                }
+            }
+            .subject{
+                width: 100%;
+                max-width: 796px;
+                height: 175px;
+            }
+            input,textarea{
+                width: 100%;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #000000;
+            }
+            input{
+                height: 45px;
+               
+            }
+            textarea{
+                height: 175px;
+            }
+            ::placeholder{
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                /* or 33px */
+                letter-spacing: 0.01em;
+                color: #4D5053;
+                text-transform: capitalize;
+
+            }
+        }
+
+    }
+}
+
+
+
+

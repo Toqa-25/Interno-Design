@@ -1,0 +1,47 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//price section
+.price{
+    max-width: 1202px;
+     min-height: 723px;
+    .pricing-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap:wrap;
+        padding: 0px;
+        gap: 48px;
+        .pricing-item{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 64px 0px;
+            gap: 10px;
+
+            width: 368px;
+            height: 722px;
+
+            background: #F4F0EC;
+            border-radius: 33px;
+        }
+
+    }
+}
+
+
+
+

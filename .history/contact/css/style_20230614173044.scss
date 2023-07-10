@@ -1,0 +1,28 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+.contact-form{
+    align-items: center;
+    gap: 80px;
+    max-width: 1201px;
+    min-height: 724px;
+    .contact-form-head{
+        max-width: 683px;
+        min-height: 146px;
+    }
+}
+
+
+
+
+

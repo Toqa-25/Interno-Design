@@ -1,0 +1,138 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//price section
+.price{
+    max-width: 1202px;
+     min-height: 723px;
+    .pricing-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap:wrap;
+        padding: 0px;
+        gap: 48px;
+        .pricing-item{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 64px 0px;
+            gap: 10px;
+            width: 368px;
+            height: 722px;
+            overflow:hidden;
+            background: #F4F0EC;
+            border-radius: 33px;
+            .item-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                gap: 28px;
+                width: 368px;
+                height: 594px;
+                .price-info{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 37px;
+                    width: 368px;
+                    height: 213px;
+                    .price-head{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0px;
+                        width: 185px;
+                        height: 176px;
+                        .head{
+                            text-align: center;
+                            letter-spacing: 0.01em;
+                        }
+                        .first-head{
+                            font-size: 25px;
+                            width: 185px;
+                            height: 36px;
+                        }
+                        .month-head{
+                            width: 108px;
+                            height: 140px;
+                            display: flex;
+                            flex-direction: column;
+                            /* justify-content: center; */
+                            align-items: center;
+                            .second-head{
+                                font-size: 85px;
+                                line-height: 127px;
+                                position: relative;
+                                display:block;
+                                sub{
+                                    font-size: 25px;
+                                    // position: absolute;
+                                    left: 0;
+                                    bottom: 0;
+                                }
+                            }
+                            .third-head{
+                                line-height: 37px;
+                                font-size: 25px;
+                                margin-top: -20px;
+                            }
+                        }
+                    }
+                    .line{
+                        width: 368px;
+                        height: 0px;
+                        border: 1px solid #CDA274;
+                    }
+                }
+                .sub-content{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 28px;
+                    width: 280px;
+                    height: 353px;
+                    .offer-list{
+                        max-width: 280px;
+                        height: 250px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        .desc{
+                            font-size: 20px;
+                            letter-spacing: 0.01em;
+                        }
+                    }
+                    .button{
+                        background: #CDA274;
+                        box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+border-radius: 18px;
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+
+

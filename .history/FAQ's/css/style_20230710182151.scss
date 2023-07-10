@@ -1,0 +1,50 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+
+//Map section 
+.ques{
+    max-width: 1200px;
+    min-height: 807px;
+    display: flex;
+    gap:50px;
+    flex-direction:column;
+    align-items: center;
+    .ques-header{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ques-content{
+        display: flex;
+        gap:60px;
+        align-items: center;
+        flex-wrap:wrap;
+        .info{
+            display: flex;
+            gap:50px;
+            flex-direction:column;
+            align-items: center;
+        }
+    }
+}
+
+
+
+
+
+
+

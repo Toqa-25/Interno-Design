@@ -1,0 +1,110 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//services section
+
+.services{
+    // max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+    max-width: 1158px;
+    min-height: 704px;
+    .services-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 42px;
+        width: 100%;
+        min-height: 225px;
+        &.heigh{
+            min-height: 391px;
+            align-items: center;
+
+        }
+        .service{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0px;
+            gap: 10px;
+            width: 398px;
+            height: 391px;
+            background: #F4F0EC;
+            transition: .3s;
+            border-radius: 30px;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+            .service-items{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+                gap: 52px;
+                width: 358px;
+                height: 225px;
+                .sub-content{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 20px;
+                    width: 358px;
+                    height: 150px;
+                    text-align:center;
+                    .head{
+                        width: 133px;
+                        height: 31px;
+                        font-size: 25px;
+                        letter-spacing: normal;
+                    }
+                    .desc{
+                        width: 358px;
+                        height: 99px;
+                        font-size: 22px;
+                    }
+                }
+                .button{
+                    gap: 12px;
+                    width: 120.14px;
+                    height: 23px;
+                    background-color: transparent;
+                    border:none;
+                    box-shadow: none;
+                    .btn{              
+                    width: 93px;
+                    height: 23px;
+                    font-size: 18px;
+                    color: #4D5053;
+                    }
+                }
+            }
+            &.active , &:hover{
+                background: #F4F0EC;
+            }
+        }
+
+    }
+}
+
+
+
+

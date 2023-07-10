@@ -1,0 +1,25 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+
+//services section
+
+.services{
+    .services-content{
+        max-width: 1920px;
+    }
+}
+
+
+
+
