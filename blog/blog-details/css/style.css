@@ -42,6 +42,10 @@ img {
   margin-top: 150px;
 }
 
+.marg-100 {
+  margin-top: 100px;
+}
+
 .button {
   display: flex;
   flex-direction: column;
@@ -121,6 +125,8 @@ img {
   align-items: center;
   letter-spacing: 0.02em;
   color: #292F36;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 991px) {
@@ -319,6 +325,10 @@ img {
   gap: 35px;
   width: 146.46px;
   height: 21.99px;
+}
+
+.special-color {
+  color: #CDA274;
 }
 
 header {

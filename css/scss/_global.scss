@@ -35,6 +35,9 @@ img{
 .marg-150{
     margin-top:150px;
 }
+.marg-100{
+    margin-top:100px;
+}
 .button {
     display: flex;
     flex-direction: column;
@@ -117,6 +120,8 @@ img{
     // justify-content: center;
     letter-spacing: 0.02em;
     color: #292F36;
+    padding: 0; 
+    margin: 0;
 }
 @media (max-width:991px){
     .head{
@@ -318,6 +323,9 @@ img{
     }
 }
 
+.special-color{
+    color:#CDA274;
+}
 
 
   

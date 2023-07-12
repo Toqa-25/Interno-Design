@@ -1,0 +1,107 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+.Photography{
+    gap:25px;
+    max-width: 906px;
+    margin-left: 10%;
+    // width:100%;
+    a{
+        text-decoration: none;
+    }
+    b{
+        color:#292F36;
+    }
+}
+
+.images-sec{
+    max-width: 1199px;
+    min-height: 671px;
+    padding: 68px 47px;
+    border-radius: 70px;
+    background: #F4F0EC;
+    gap: 54px;
+    .sub-content{
+        max-width: 1105px;
+        gap: 25px;
+    }
+    .images-content{
+        display: flex;
+        max-width: 1105px;
+        align-items: flex-start;
+        gap: 41px;
+        flex-wrap:wrap;
+        justify-content: center;
+        .image-item{
+            width: 341px;
+            height: 339px;
+            border-radius: 31px;
+            overflow:hidden;
+        }
+    }
+}
+
+.icons-font{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:82px 46px;
+    gap: 10px;
+    min-height:472px;
+    .font{
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        flex-wrap:wrap;
+        gap: 43px;
+        .sub-content{
+            max-width: 495px;
+            height: 183px;
+        }
+        b{
+            color:#292F36;
+        }
+        .special-color{
+            b{
+                color: $main-paij-color;
+            }
+        }
+        .example{
+            display: flex;
+            width: 312px;
+            align-items: flex-start;
+            gap: 60px;
+            .font-head{
+                width: 126px;
+                height: 133px;
+                font-size:85px;
+                @media(max-width:575px){
+                    &{
+                        width:auto;
+                        font-size:70px;
+                    }
+                }
+            }
+            .jost-head{
+                font-family: jost;
+            }
+        }
+    }
+}
+
+
+
+
+
+
