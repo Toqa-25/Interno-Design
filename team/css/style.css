@@ -210,7 +210,7 @@ img {
   height: 23px;
 }
 
-.mail-box-form {
+.mail-box-form, .box-form {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -219,7 +219,7 @@ img {
   max-width: 797px;
   min-height: 277px;
 }
-.mail-box-form .form-items {
+.mail-box-form .form-items, .box-form .form-items {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -229,28 +229,28 @@ img {
   min-height: 45px;
   flex-wrap: wrap;
 }
-.mail-box-form .form-items .form-item {
+.mail-box-form .form-items .form-item, .box-form .form-items .form-item {
   max-width: 375px;
   width: 100%;
 }
-.mail-box-form .subject {
+.mail-box-form .subject, .box-form .subject {
   width: 100%;
   max-width: 796px;
   height: 175px;
 }
-.mail-box-form input, .mail-box-form textarea {
+.mail-box-form input, .mail-box-form textarea, .box-form input, .box-form textarea {
   width: 100%;
   border: none;
   outline: none;
   border-bottom: 1px solid #000000;
 }
-.mail-box-form input {
+.mail-box-form input, .box-form input {
   height: 45px;
 }
-.mail-box-form textarea {
+.mail-box-form textarea, .box-form textarea {
   height: 175px;
 }
-.mail-box-form ::-moz-placeholder {
+.mail-box-form ::-moz-placeholder, .box-form ::-moz-placeholder {
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
@@ -261,7 +261,7 @@ img {
   color: #4D5053;
   text-transform: capitalize;
 }
-.mail-box-form ::placeholder {
+.mail-box-form ::placeholder, .box-form ::placeholder {
   font-family: "Jost";
   font-style: normal;
   font-weight: 400;
