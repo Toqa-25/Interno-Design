@@ -561,8 +561,8 @@ footer .copyright a {
 .Password {
   display: flex;
   max-width: 1201px;
-  padding-top: 154px;
-  padding-bottom: 154px;
+  padding-top: 128px;
+  padding-bottom: 128px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: column;
@@ -573,33 +573,19 @@ footer .copyright a {
 }
 .Password .Password-content {
   display: flex;
-  max-width: 718px;
-  flex-direction: column;
+  max-width: 513px;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 11px;
+  flex-wrap: wrap;
 }
-.Password .Password-content .title {
+.Password .Password-content .head {
+  width: 95px;
+  height: 71px;
+  letter-spacing: 0.5px;
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  justify-content: center;
+}
+.Password .Password-content .desc {
   text-align: center;
-}
-.Password .Password-content .password-form {
-  max-width: 482px;
-  gap: 41px;
-  justify-content: center;
-  min-height: auto;
-}
-.Password .Password-content .password-form .form-items {
-  justify-content: center;
-}
-.Password .Password-content .password-form .form-items input {
-  background: transparent;
-}
-@media (max-width: 575px) {
-  .Password .head {
-    font-size: 22px;
-  }
 }/*# sourceMappingURL=style.css.map */

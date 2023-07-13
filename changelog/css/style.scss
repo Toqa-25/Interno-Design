@@ -1,0 +1,55 @@
+// import variables 
+@use "../../css/scss/variables" as * ;
+
+// import global 
+@use "../../css/scss/global" as * ;
+
+// import header 
+@use "../../css/scss/header" as * ;
+
+// import footer 
+@use "../../css/scss/footer" as * ;
+
+//  global style
+.Password{
+    display: flex;
+    max-width: 1201px;
+    padding-top: 128px ;
+    padding-bottom: 128px ;
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 70px;
+    background: #F4F0EC;
+    .Password-content{
+        display: flex;
+        max-width: 513px;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        flex-wrap: wrap;
+        .head{
+            width: 95px;
+            height: 71px;
+            letter-spacing: 0.5px;
+            display: flex;
+            justify-content: center;
+        }
+        .desc{
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
