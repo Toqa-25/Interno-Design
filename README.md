@@ -1,5 +1,5 @@
 # Interno-Design 
-Is Figma design consist of 17 pags.
-I converted it in HTML&CSS&SASS and JS in responsive design for all screens.
-You can check it from this link: https://toqa-25.github.io/Interno-Design/, and this is figma link:
-https://www.figma.com/file/oeD3OhRMrLMLNagefYkRHA/Interior-Design-Website-Template-(Community)?type=design&node-id=1-781&t=QzofXmnwcIEVitPj-0 of the pages which I converted it.
+Is Figma design consist of 17 pags which designed by webflow, you can check figma design from this link :
+https://www.figma.com/file/oeD3OhRMrLMLNagefYkRHA/Interior-Design-Website-Template-(Community)?node-id=1%3A286&mode=dev .
+I converted it in HTML, CSS, SASS,, and JS all of them  responsive  for all screens.
+You can check it from this link: https://toqa-25.github.io/Interno-Design/ . 
