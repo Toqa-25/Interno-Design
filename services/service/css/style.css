@@ -675,6 +675,10 @@ footer .copyright a {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+.video img {
+  width: 21px;
+  height: 32px;
+}
 
 .points {
   min-height: 347px;
