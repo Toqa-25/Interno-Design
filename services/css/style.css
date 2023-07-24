@@ -642,7 +642,7 @@ footer .copyright a {
   cursor: pointer;
 }
 .services .services-content .service .service-items .button .btn {
-  width: 93px;
+  min-width: 93px;
   height: 23px;
   font-size: 18px;
   color: #4D5053;
